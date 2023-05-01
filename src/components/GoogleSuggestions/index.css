@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.search-bar-container {
+  min-width: 50%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 25px;
+  padding: 15px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+}
+
+.search-icon {
+  height: 25px;
+}
+
+.search-input {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  text-indent: 15px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.list-container {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+}
